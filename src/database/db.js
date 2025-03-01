@@ -1,6 +1,8 @@
 const path = require('path');
 const sqlite3 = require('sqlite3').verbose();
 
+// ----------------------------------------------------------------
+
 const dbPath = path.resolve(__dirname, 'database.sqlite');
 
 const db = new sqlite3.Database(dbPath, (err) => {
@@ -9,33 +11,32 @@ const db = new sqlite3.Database(dbPath, (err) => {
     } 
 
     else {
-    console.log('Conectado ao banco de dados SQLite');
+    console.log('Estabelecida a conexão com o Banco de Dados!');
 }});
 
-// comentário teste ----------------------------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------
 
 db.serialize(() => {
     db.run(
         `CREATE TABLE IF NOT EXISTS lojas ( 
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             nome TEXT NOT NULL,
+            descricao TEXT NOT NULL,
             logradouro TEXT NOT NULL,
             bairro TEXT NOT NULL,
             cidade TEXT NOT NULL,
-            estado TEXT NOT NULL,
+            uf TEXT NOT NULL,
             telefone TEXT NOT NULL,
-            cep TEXT NOT NULL,
-            latitude REAL NOT NULL,
-            longitude REAL NOT NULL
+            cep TEXT NOT NULL
         )`,
         (err) => {
             if (err) {
                 console.error("Erro ao criar a tabela lojas:", err.message);
             } 
             
-            else {
-                console.log("Tabela lojas criada!");
-            }
+            // else {
+            //     console.log("Tabela lojas criada!");
+            // }
         }
     );
 });
