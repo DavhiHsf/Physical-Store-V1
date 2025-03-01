@@ -1,5 +1,7 @@
 const {buscarCep} = require('../integrations/viaCepService');
 
+//----------------------------------------------------------------
+
 const buscarCepCtrl = async (req, res) => {
     const { cep } = req.params;
 

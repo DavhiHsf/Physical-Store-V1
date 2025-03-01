@@ -1,5 +1,7 @@
 const axios = require('axios');
 
+// ----------------------------------------------------------------
+
 const buscarCep = async (cep) => {
     try {
         const response = await axios.get(`https://viacep.com.br/ws/${cep}/json/`);
