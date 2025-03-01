@@ -1,0 +1,103 @@
+[
+    {
+      "nome": "Lyvretto Universitária",
+      "descricao": "Livraria pertencente a rede Lyvretto, especializada em livros acadêmicos e técnicos, com uma vasta gama de materiais para cursos universitários.",
+      "logradouro": "Avenida Dois Rios",
+      "bairro": "Ibura",
+      "cidade": "Recife",
+      "uf": "PE",
+      "telefone": "(81) 91334-5690",
+      "cep": "51230-000"
+    },
+    {
+      "nome": "Lyvreto Locadora e Página",
+      "descricao": "Livraria pertencente a rede Lyvretto, especializada em venda de livros e aluguel de filmes, oferecendo uma experiência única para cinéfilos e leitores.",
+      "logradouro": "Rua José de Alencar",
+      "bairro": "Boa Vista",
+      "cidade": "Recife",
+      "uf": "PE",
+      "telefone": "(81) 98845-7189",
+      "cep": "50070-075"
+    },
+    {
+      "nome": "Lyvretto Honchaeg Shū",
+      "descricao": "Livraria pertencente a rede Lyvretto, especializada na venda de mangás, manhwas e manhuas, além de artigos relacionados como camisetas e pôsteres.",
+      "logradouro": "Rua Manuel dos Santos Moreira",
+      "bairro": "Casa Caiada",
+      "cidade": "Olinda",
+      "uf": "PE",
+      "telefone": "(81) 95356-8790",
+      "cep": "53130-250"
+    },
+    {
+      "nome": "Lyvretto CatCafé",
+      "descricao": "Cafeteria/biblioteca pertencente a rede Lyvretto, com acesso a livros, café e gatos, oferecendo um ambiente acolhedor para leitores e amantes de animais.",
+      "logradouro": "Avenida Prefeito Geraldo Pinho Alves",
+      "bairro": "Maranguape I",
+      "cidade": "Paulista",
+      "uf": "PE",
+      "telefone": "(81) 93405-1285",
+      "cep": "53444-490"
+    },
+    { 
+      "nome": "Lyvretto Mundo das Biografias",
+      "descricao": "Livraria pertencente a rede Lyvretto, focada em livros de biografias e histórias de vida, com um acervo que retrata figuras históricas e contemporâneas.",
+      "logradouro": "Rua Beatriz Chagas",
+      "bairro": "Cruz Alta",
+      "cidade": "Santa Cruz do Capibaribe",
+      "uf": "PE",
+      "telefone": "(81) 98567-4121",
+      "cep": "55195-051"
+    },
+    {
+      "nome": "Lyvretto Estante Devocional",
+      "descricao": "Livraria pertencente a rede Lyvretto, especializada em livros religiosos, com uma vasta coleção sobre espiritualidade, teologia e práticas devocionais.",
+      "logradouro": "Avenida Duarte Coelho",
+      "bairro": "Campina de Feira",
+      "cidade": "Igarassu",
+      "uf": "PE",
+      "telefone": "(81) 98989-5778",
+      "cep": "53610-719"
+    },
+    {
+      "nome": "Lyvretto Marvelous HQs",
+      "descricao": "Livraria pertencente a rede Lyvretto, especializada na venda de histórias de quadrinhos ocidentais, com um acervo de títulos da Marvel, DC e editoras independentes.",
+      "logradouro": "Avenida Senador Salgado Filho",
+      "bairro": "Tirol",
+      "cidade": "Natal",
+      "uf": "RN",
+      "telefone": "(84) 98054-1234",
+      "cep": "59015-000"
+    },
+    {
+      "nome": "Lyvretto Common Standard",
+      "descricao": "Livraria pertencente a rede Lyvretto, que oferece uma grande variedade de livros em geral, desde clássicos até os mais recentes lançamentos.",
+      "logradouro": "Rua Coronel Chicuta",
+      "bairro": "Centro",
+      "cidade": "Passo Fundo",
+      "uf": "RS",
+      "telefone": "(55) 99139-4561",
+      "cep": "99010-051"
+    },
+    {
+      "nome": "Lyvretto Back t' School",
+      "descricao": "Livraria pertencente a rede Lyvretto, especializada em artigos escolares e livros didáticos, atendendo tanto alunos quanto professores.",
+      "logradouro": "Avenida Barreto de Menezes",
+      "bairro": "Marcos Freire",
+      "cidade": "Jaboatão dos Guararapes",
+      "uf": "PE",
+      "telefone": "(81) 97346-6789",
+      "cep": "54360-160"
+    },
+    {
+      "nome": "Lyvretto Menù Berzatto",
+      "descricao": "Livraria pertencente a rede Lyvretto, voltada para livros de culinária mundial, com receitas, histórias e curiosidades sobre a gastronomia.",
+      "logradouro": "Avenida Duque de Caxias",
+      "bairro": "Centro",
+      "cidade": "Abreu e Lima",
+      "uf": "PE",
+      "telefone": "(81) 98023-1008",
+      "cep": "53510-050"
+    }
+  ]
+  
