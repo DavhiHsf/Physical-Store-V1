@@ -1,7 +1,8 @@
 const app = require("./app");
 const listarLojasRouter = require("../routes/listarLojasRouter");
 const inserirLojasRouter = require("../routes/inserirLojasRouter");
-const buscarCepRouter = require('../routes/buscarCepRouter');  
+const buscarCepRouter = require('../routes/buscarCepRouter');
+const logger = require("../utils/logger");
 
 // ----------------------------------------------------------------
 
@@ -12,6 +13,9 @@ app.use(buscarCepRouter);
 const PORT = 1610;
 
 app.listen(PORT, () => {
-  console.log(`Rodando na porta ${PORT} 🔥`);
-  console.log(`Data da inicialização: ${new Date().toLocaleString()}`);
+  logger.info(`Rodando na porta ${PORT} 🔥`);
+});
+
+app.on('error', (err) => {
+  logger.error(`Erro ao iniciar o servidor: ${err.message}`);
 });

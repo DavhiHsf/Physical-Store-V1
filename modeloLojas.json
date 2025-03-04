@@ -7,7 +7,9 @@
       "cidade": "Recife",
       "uf": "PE",
       "telefone": "(81) 91334-5690",
-      "cep": "51230-000"
+      "cep": "51230-000",
+      "latitude": -8.11421,
+      "longitude": -34.93950
     },
     {
       "nome": "Lyvreto Locadora e Página",
@@ -17,7 +19,9 @@
       "cidade": "Recife",
       "uf": "PE",
       "telefone": "(81) 98845-7189",
-      "cep": "50070-075"
+      "cep": "50070-075",
+      "latitude": -8.06299,
+      "longitude": -34.89012
     },
     {
       "nome": "Lyvretto Honchaeg Shū",
@@ -27,7 +31,9 @@
       "cidade": "Olinda",
       "uf": "PE",
       "telefone": "(81) 95356-8790",
-      "cep": "53130-250"
+      "cep": "53130-250",
+      "latitude": -7.98893,
+      "longitude": -34.84208
     },
     {
       "nome": "Lyvretto CatCafé",
@@ -37,17 +43,21 @@
       "cidade": "Paulista",
       "uf": "PE",
       "telefone": "(81) 93405-1285",
-      "cep": "53444-490"
+      "cep": "53444-490",
+      "latitude": -7.95025,
+      "longitude": -34.86293
     },
     { 
       "nome": "Lyvretto Mundo das Biografias",
       "descricao": "Livraria pertencente a rede Lyvretto, focada em livros de biografias e histórias de vida, com um acervo que retrata figuras históricas e contemporâneas.",
-      "logradouro": "Rua Beatriz Chagas",
-      "bairro": "Cruz Alta",
+      "logradouro": "Avenida Bela Vista",
+      "bairro": "Santa Tereza",
       "cidade": "Santa Cruz do Capibaribe",
       "uf": "PE",
       "telefone": "(81) 98567-4121",
-      "cep": "55195-051"
+      "cep": "55190-000",
+      "latitude": -7.94833,
+      "longitude": -36.22555
     },
     {
       "nome": "Lyvretto Estante Devocional",
@@ -57,7 +67,9 @@
       "cidade": "Igarassu",
       "uf": "PE",
       "telefone": "(81) 98989-5778",
-      "cep": "53610-719"
+      "cep": "53605-030",
+      "latitude": -7.82742,
+      "longitude": -34.91045
     },
     {
       "nome": "Lyvretto Marvelous HQs",
@@ -67,7 +79,9 @@
       "cidade": "Natal",
       "uf": "RN",
       "telefone": "(84) 98054-1234",
-      "cep": "59015-000"
+      "cep": "59015-000",
+      "latitude": -5.81163,
+      "longitude": -35.20474
     },
     {
       "nome": "Lyvretto Common Standard",
@@ -77,7 +91,9 @@
       "cidade": "Passo Fundo",
       "uf": "RS",
       "telefone": "(55) 99139-4561",
-      "cep": "99010-051"
+      "cep": "99010-051",
+      "latitude": -28.26467,
+      "longitude": -52.40780
     },
     {
       "nome": "Lyvretto Back t' School",
@@ -87,7 +103,9 @@
       "cidade": "Jaboatão dos Guararapes",
       "uf": "PE",
       "telefone": "(81) 97346-6789",
-      "cep": "54360-160"
+      "cep": "54360-160",
+      "latitude": -8.13745,
+      "longitude": -34.97408
     },
     {
       "nome": "Lyvretto Menù Berzatto",
@@ -97,7 +115,9 @@
       "cidade": "Abreu e Lima",
       "uf": "PE",
       "telefone": "(81) 98023-1008",
-      "cep": "53510-050"
+      "cep": "53510-050",
+      "latitude": -7.90696,
+      "longitude": -34.90138
     }
   ]
   

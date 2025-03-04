@@ -1,5 +1,6 @@
 const path = require('path');
 const sqlite3 = require('sqlite3').verbose();
+const logger = require('../utils/logger');
 
 // ----------------------------------------------------------------
 
@@ -7,16 +8,16 @@ const dbPath = path.resolve(__dirname, 'dbLojas.sqlite');
 
 const db = new sqlite3.Database(dbPath, (err) => {
   if (err) {
-    console.error('Erro ao conectar ao banco de dados:', err.message);
+    logger.error('Erro ao conectar ao banco de dados:', err.message);
     } 
 
     else {
-    console.log('Estabelecida a conexão com o Banco de Dados!');
-}});
-
-// ----------------------------------------------------------------
+    logger.info('Estabelecida a conexão com o Banco de Dados!');
+    }
+});
 
 db.serialize(() => {
+
     db.run(
         `CREATE TABLE IF NOT EXISTS lojas ( 
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -27,15 +28,16 @@ db.serialize(() => {
             cidade TEXT NOT NULL,
             uf TEXT NOT NULL,
             telefone TEXT NOT NULL,
-            cep TEXT NOT NULL
+            cep TEXT NOT NULL,
+            latitude REAL NOT NULL,
+            longitude REAL NOT NULL
         )`,
         (err) => {
             if (err) {
-                console.error("Erro ao criar a tabela lojas:", err.message);
+                logger.error("Erro ao criar a tabela Lojas:", err.message);
             } 
-            
             // else {
-            //     console.log("Tabela lojas criada!");
+            //     logger.info("Tabela Lojas criada!");
             // }
         }
     );
