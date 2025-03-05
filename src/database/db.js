@@ -2,8 +2,6 @@ const path = require('path');
 const sqlite3 = require('sqlite3').verbose();
 const logger = require('../utils/logger');
 
-// ----------------------------------------------------------------
-
 const dbPath = path.resolve(__dirname, 'dbLojas.sqlite');
 
 const db = new sqlite3.Database(dbPath, (err) => {

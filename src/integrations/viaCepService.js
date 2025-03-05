@@ -1,12 +1,12 @@
 const axios = require('axios');
 
-// ----------------------------------------------------------------
+// Importações ----------------------------------------------------------------
 
-const buscarCep = async (cep) => {
+const obterCep = async (cep) => {
     try {
         const response = await axios.get(`https://viacep.com.br/ws/${cep}/json/`);
 
-        if (response.data.erro) {
+        if (!response.data) {
             return { error: "CEP não encontrado!" };
         }
 
@@ -17,4 +17,4 @@ const buscarCep = async (cep) => {
     }
 }
 
-module.exports = { buscarCep };
+module.exports = { obterCep };

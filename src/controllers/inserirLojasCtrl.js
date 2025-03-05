@@ -1,8 +1,6 @@
 const db = require('../database/db');
 const logger = require('../utils/logger');
 
-// ----------------------------------------------------------------
-
 const inserirLojas = (req, res) => {
     const { nome, descricao, logradouro, bairro, cidade, uf, telefone, cep, latitude, longitude } = req.body;
 

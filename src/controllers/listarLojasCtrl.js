@@ -1,7 +1,7 @@
 const db = require('../database/db');
 const logger = require('../utils/logger');
 
-// ----------------------------------------------------------------
+// Importações ----------------------------------------------------------------
 
 const listarLojas = (req, res) => {
     const query = 'SELECT * FROM lojas';
