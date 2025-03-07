@@ -10,7 +10,7 @@ winston.addColors({
 const formatLog = winston.format.combine(
     winston.format.timestamp({ format: 'DD/MM/YYYY HH:mm:ss' }),
     winston.format.printf(({ level, message, timestamp }) => {
-        return `\n${level}: ${message} - timestamp: ${timestamp}`;
+        return `\n${level}: ${message} | timestamp: ${timestamp}`;
     })
 );
 

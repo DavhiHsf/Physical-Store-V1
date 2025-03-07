@@ -1,19 +1,21 @@
 const axios = require('axios');
+const logger = require('../utils/logger')
 
-// Importações ----------------------------------------------------------------
 
 const obterCep = async (cep) => {
     try {
         const response = await axios.get(`https://viacep.com.br/ws/${cep}/json/`);
 
         if (!response.data) {
-            return { error: "CEP não encontrado!" };
+            logger.warn(`O Cep ${cep} não foi localizado!`);
+            return { error: "CEP não localizado!" };
         }
 
         return response.data;
     
     } catch (error) {
-        throw new Error("Erro ao buscar CEP!");
+        logger.error(`Erro ao consultar o CEP ${cep}: ${error.message}`);
+        throw new Error("Erro ao localizar CEP!");
     }
 }
 
