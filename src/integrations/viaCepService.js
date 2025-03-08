@@ -14,8 +14,8 @@ const obterCep = async (cep) => {
         return response.data;
     
     } catch (error) {
-        logger.error(`Erro ao consultar o CEP ${cep}: ${error.message}`);
-        throw new Error("Erro ao localizar CEP!");
+        logger.error(`Erro ao consultar o Cep ${cep}: ${error.message}`);
+        throw new Error("Erro ao localizar o Cep!");
     }
 }
 

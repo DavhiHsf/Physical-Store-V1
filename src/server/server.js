@@ -5,11 +5,11 @@ const obterCepRouter = require("../routes/obterCepRouter");
 const obterCoordenadasRouter = require("../routes/obterCoordenadasRouter");
 const logger = require("../utils/logger");
 
-
 app.use(listarLojasRouter);
 app.use(inserirLojasRouter);
 app.use(obterCepRouter);
 app.use(obterCoordenadasRouter);
+
 
 const PORT = 1610;
 

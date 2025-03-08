@@ -9,9 +9,10 @@ winston.addColors({
 
 const formatLog = winston.format.combine(
     winston.format.timestamp({ format: 'DD/MM/YYYY HH:mm:ss' }),
-    winston.format.printf(({ level, message, timestamp }) => {
-        return `\n${level}: ${message} | timestamp: ${timestamp}`;
-    })
+    winston.format.json()
+    // winston.format.printf(({ level, message, timestamp }) => {
+    //     return `\n${level}: ${message}\n\ntimestamp: ${timestamp}`;
+    // })
 );
 
 const logger = winston.createLogger({
@@ -24,9 +25,15 @@ const logger = winston.createLogger({
             format: formatLog,
         }),
 
+        new winston.transports.File({
+            filename: path.resolve(__dirname, '../docs/combined.log'),
+            level: 'info',
+            format: formatLog,
+        }),
+
         new winston.transports.Console({
         format: winston.format.combine(
-            winston.format.colorize(),
+            // winston.format.colorize(),
             formatLog
             ),
         }),
