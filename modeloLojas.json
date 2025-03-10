@@ -118,6 +118,18 @@
       "cep": "53510-050",
       "latitude": -7.90696,
       "longitude": -34.90138
+    },
+    {
+      "nome": "Lyvretto Brasil",
+      "descricao": "Livraria pertencente a rede Lyvretto, especializada em livros e documentos históricos que tratam da história do nosso país.",
+      "logradouro": "Rua Guilherme Pinto",
+      "bairro": "Graças",
+      "cidade": "Recife",
+      "uf": "PE",
+      "telefone": "(81) 93413-4611",
+      "cep": "52011-210",
+      "latitude": -8.05163,
+      "longitude": -34.90324
     }
   ]
   

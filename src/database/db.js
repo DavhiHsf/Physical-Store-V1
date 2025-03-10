@@ -2,13 +2,15 @@ const path = require('path');
 const sqlite3 = require('sqlite3').verbose();
 const logger = require('../utils/logger');
 
+// Importações -----------------------------------------------------
+
 const dbPath = path.resolve(__dirname, 'dbLojas.sqlite');
 
 const db = new sqlite3.Database(dbPath, (err) => {
   if (err) {
     logger.error('Erro ao conectar ao banco de dados:', err.message);
     } else {
-        logger.info('Estabelecida a conexão com o Banco de Dados!');
+        logger.info('Estabelecida a conexão com o Banco de Dados Lojas!');
     }
 });
 
@@ -30,7 +32,7 @@ db.serialize(() => {
         )`,
         (err) => {
             if (err) {
-                logger.error("Erro ao criar a tabela Lojas:", err.message);
+                logger.error("Erro ao criar a tabela 'Lojas' no banco de dados:", err.message);
             } 
             // else {
             //     logger.info("Tabela Lojas criada!");
@@ -39,4 +41,16 @@ db.serialize(() => {
     )
 });
 
-module.exports = db;
+const resgatarLojas = () => {
+    return new Promise((resolve, reject) => {
+
+        db.all(`SELECT nome, logradouro, bairro, cidade, cep, uf, latitude, longitude FROM lojas`, [], (err, rows) => {
+            if (err) {
+                return reject(err);
+
+            } resolve(rows);
+        });
+    });
+};
+
+module.exports = { db, resgatarLojas };
