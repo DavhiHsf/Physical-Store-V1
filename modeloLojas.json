@@ -1,0 +1,135 @@
+[
+    {
+      "nome": "Lyvretto Universitária",
+      "descricao": "Livraria pertencente a rede Lyvretto, especializada em livros acadêmicos e técnicos, com uma vasta gama de materiais para cursos universitários.",
+      "logradouro": "Avenida Dois Rios",
+      "bairro": "Ibura",
+      "cidade": "Recife",
+      "uf": "PE",
+      "telefone": "(81) 91334-5690",
+      "cep": "51230-000",
+      "latitude": -8.11421,
+      "longitude": -34.93950
+    },
+    {
+      "nome": "Lyvreto Locadora e Página",
+      "descricao": "Livraria pertencente a rede Lyvretto, especializada em venda de livros e aluguel de filmes, oferecendo uma experiência única para cinéfilos e leitores.",
+      "logradouro": "Rua José de Alencar",
+      "bairro": "Boa Vista",
+      "cidade": "Recife",
+      "uf": "PE",
+      "telefone": "(81) 98845-7189",
+      "cep": "50070-075",
+      "latitude": -8.06299,
+      "longitude": -34.89012
+    },
+    {
+      "nome": "Lyvretto Honchaeg Shū",
+      "descricao": "Livraria pertencente a rede Lyvretto, especializada na venda de mangás, manhwas e manhuas, além de artigos relacionados como camisetas e pôsteres.",
+      "logradouro": "Rua Manuel dos Santos Moreira",
+      "bairro": "Casa Caiada",
+      "cidade": "Olinda",
+      "uf": "PE",
+      "telefone": "(81) 95356-8790",
+      "cep": "53130-250",
+      "latitude": -7.98893,
+      "longitude": -34.84208
+    },
+    {
+      "nome": "Lyvretto CatCafé",
+      "descricao": "Cafeteria/biblioteca pertencente a rede Lyvretto, com acesso a livros, café e gatos, oferecendo um ambiente acolhedor para leitores e amantes de animais.",
+      "logradouro": "Avenida Brasil",
+      "bairro": "Maranguape I",
+      "cidade": "Paulista",
+      "uf": "PE",
+      "telefone": "(81) 93405-1285",
+      "cep": "53444-490",
+      "latitude": -7.95025,
+      "longitude": -34.86293
+    },
+    { 
+      "nome": "Lyvretto Mundo das Biografias",
+      "descricao": "Livraria pertencente a rede Lyvretto, focada em livros de biografias e histórias de vida, com um acervo que retrata figuras históricas e contemporâneas.",
+      "logradouro": "Avenida Bela Vista",
+      "bairro": "Santa Tereza",
+      "cidade": "Santa Cruz do Capibaribe",
+      "uf": "PE",
+      "telefone": "(81) 98567-4121",
+      "cep": "55190-000",
+      "latitude": -7.94833,
+      "longitude": -36.22555
+    },
+    {
+      "nome": "Lyvretto Estante Devocional",
+      "descricao": "Livraria pertencente a rede Lyvretto, especializada em livros religiosos, com uma vasta coleção sobre espiritualidade, teologia e práticas devocionais.",
+      "logradouro": "Avenida Duarte Coelho",
+      "bairro": "Campina de Feira",
+      "cidade": "Igarassu",
+      "uf": "PE",
+      "telefone": "(81) 98989-5778",
+      "cep": "53605-030",
+      "latitude": -7.82742,
+      "longitude": -34.91045
+    },
+    {
+      "nome": "Lyvretto Marvelous HQs",
+      "descricao": "Livraria pertencente a rede Lyvretto, especializada na venda de histórias de quadrinhos ocidentais, com um acervo de títulos da Marvel, DC e editoras independentes.",
+      "logradouro": "Avenida Senador Salgado Filho",
+      "bairro": "Tirol",
+      "cidade": "Natal",
+      "uf": "RN",
+      "telefone": "(84) 98054-1234",
+      "cep": "59015-000",
+      "latitude": -5.81163,
+      "longitude": -35.20474
+    },
+    {
+      "nome": "Lyvretto Common Standard",
+      "descricao": "Livraria pertencente a rede Lyvretto, que oferece uma grande variedade de livros em geral, desde clássicos até os mais recentes lançamentos.",
+      "logradouro": "Rua Coronel Chicuta",
+      "bairro": "Centro",
+      "cidade": "Passo Fundo",
+      "uf": "RS",
+      "telefone": "(55) 99139-4561",
+      "cep": "99010-051",
+      "latitude": -28.26467,
+      "longitude": -52.40780
+    },
+    {
+      "nome": "Lyvretto Back t' School",
+      "descricao": "Livraria pertencente a rede Lyvretto, especializada em artigos escolares e livros didáticos, atendendo tanto alunos quanto professores.",
+      "logradouro": "Avenida Barreto de Menezes",
+      "bairro": "Marcos Freire",
+      "cidade": "Jaboatão dos Guararapes",
+      "uf": "PE",
+      "telefone": "(81) 97346-6789",
+      "cep": "54360-160",
+      "latitude": -8.13745,
+      "longitude": -34.97408
+    },
+    {
+      "nome": "Lyvretto Menù Berzatto",
+      "descricao": "Livraria pertencente a rede Lyvretto, voltada para livros de culinária mundial, com receitas, histórias e curiosidades sobre a gastronomia.",
+      "logradouro": "Avenida Duque de Caxias",
+      "bairro": "Centro",
+      "cidade": "Abreu e Lima",
+      "uf": "PE",
+      "telefone": "(81) 98023-1008",
+      "cep": "53510-050",
+      "latitude": -7.90696,
+      "longitude": -34.90138
+    },
+    {
+      "nome": "Lyvretto Brasil",
+      "descricao": "Livraria pertencente a rede Lyvretto, especializada em livros e documentos históricos que tratam da história do nosso país.",
+      "logradouro": "Rua Guilherme Pinto",
+      "bairro": "Graças",
+      "cidade": "Recife",
+      "uf": "PE",
+      "telefone": "(81) 93413-4611",
+      "cep": "52011-210",
+      "latitude": -8.05163,
+      "longitude": -34.90324
+    }
+  ]
+  
